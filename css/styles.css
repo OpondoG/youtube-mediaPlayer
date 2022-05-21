@@ -1,0 +1,35 @@
+body{
+    margin: 0;
+    padding: 0
+}
+#nav-container{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+    height: 56px;
+    width: 100vw;
+    border: 1px solid black
+}
+
+.content-wrapper{
+    display: flex;
+    padding: 4vw;
+    height: 100vh;
+    width: 100vw;
+    border: solid green 1px;
+}
+
+#video{
+    width: 70%;
+    height: 100%;
+    border: solid red 1px;
+
+}
+
+#sidebar{
+    height: 100%;
+    width: 30%;
+    border: solid purple 1px;
+
+}
