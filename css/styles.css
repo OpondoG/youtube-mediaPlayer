@@ -99,8 +99,23 @@ h4 {
     padding-bottom: 1.5rem;
 }
 
+@media (min-width:992px) {
+    .content-wrapper{
+        display: flex;
+    }
+    
+    .video-wrapper{
+        width: 60%;
+    }
+
+    .sidebar-wrapper{
+        width: 40%;
+    }
+}
+
+
 .video-wrapper{
-    width: 100%;
+    /* width: 100%; */
 }
 
 .video-container{
@@ -222,8 +237,13 @@ h4 {
 
 
 .sidebar-wrapper{
-    /* border: solid purple 1px; */
-    width: 100%;
+    /* width: 100%; */
+}
+
+@media (min-width:992px) {
+    .sidebar-wrapper{
+        padding: 0 1.5rem;
+    }
 }
 
 .featured-wrapper{
@@ -232,6 +252,12 @@ h4 {
     touch-action: pan-y;
     white-space: nowrap;
     overflow: hidden;
+}
+
+@media (min-width:992px) {
+    .featured-wrapper {
+        margin-top: 0;
+    }
 }
 
 .featured-tab{
