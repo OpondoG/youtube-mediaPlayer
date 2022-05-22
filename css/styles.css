@@ -153,8 +153,8 @@ h4 {
 
 
 .channel-wrapper{
+    position: relative;
     display: flex;
-    justify-content: space-between;
     padding-top: 1rem;
     padding-bottom: 1rem;
     border-bottom: solid 1px #ccc;
@@ -204,6 +204,9 @@ h4 {
 }
 
 .subscribe-btn-wrapper{
+    position: absolute;
+    right: 0;
+    top: 1rem;
     background-color: var(--yt-brand-bg);
     border-radius: 2px;
     color: #fff!important;
@@ -214,6 +217,7 @@ h4 {
     text-transform: uppercase;
     display: flex;
     flex-direction: row;
+    cursor: pointer;
 }
 
 
